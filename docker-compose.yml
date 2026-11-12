@@ -19,8 +19,8 @@ services:
 
   backend:
     build:
-      context: ./backend
-      dockerfile: Dockerfile
+      context: ./Nul_Back
+      dockerfile: .dockerfile
     container_name: spring_backend
     restart: unless-stopped
     environment:
@@ -38,8 +38,8 @@ services:
 
   frontend:
     build:
-      context: ./frontend
-      dockerfile: Dockerfile
+      context: ./Nul_Front
+      dockerfile: .dockerfile
     container_name: svelte_frontend
     restart: unless-stopped
     environment:
