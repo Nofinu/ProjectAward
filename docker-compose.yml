@@ -47,6 +47,7 @@ services:
       ORIGIN: ${FRONT_URL}
       # URL de l'API (lue à l'exécution via $env/dynamic/public)
       PUBLIC_API_URL: ${API_URL}
+      INTERNAL_API_URL: http://backend:8081
     ports:
       - "3000:3000"
     depends_on:

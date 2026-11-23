@@ -13,18 +13,18 @@
 
 <nav>
 	<div>
-		<a href="http://localhost:5173" class="button">Nuls 2026</a>
-		<a href="http://localhost:5173/ShowPage" class="button">ShowPage</a>
+		<a href="https://nulawards.duckdns.org/" class="button">Nuls 2026</a>
+		<a href="https://nulawards.duckdns.org/ShowPage" class="button">ShowPage</a>
 	</div>
 	<div>
 	{#if data.username}
-		<a href="http://localhost:5173/LogOut" class="button" data-sveltekit-reload>logout</a>
+		<a href="https://nulawards.duckdns.org/LogOut" class="button" data-sveltekit-reload>logout</a>
 	{/if}
 	{#if data.username}
-		<a href="http://localhost:5173/" class="button" data-sveltekit-reload>{data.username}</a>
+		<a href="https://nulawards.duckdns.org/" class="button" data-sveltekit-reload>{data.username}</a>
 
 	{:else}
-		<a href="https://id.twitch.tv/oauth2/authorize?response_type=code&client_id=pre477msnx5x2s4j08lwznegnnnipr&redirect_uri=http://localhost:5173/Authorization&scope=user%3Aread%3Aemail&state=c3ab8aa609ea11e793ae92361f002671" class="button twitch">Connexion via Twitch</a>
+		<a href="https://id.twitch.tv/oauth2/authorize?response_type=code&client_id=pre477msnx5x2s4j08lwznegnnnipr&redirect_uri=https://nulawards.duckdns.org/Authorization&scope=user%3Aread%3Aemail&state=c3ab8aa609ea11e793ae92361f002671" class="button twitch">Connexion via Twitch</a>
 	{/if}
 	</div>
 
@@ -37,8 +37,18 @@
 	nav {
 		display: flex;
 		flex-direction: row;
-		justify-content:space-between;
-		align-items: right;
+		justify-content: space-between;
+		align-items: center;
+		flex-wrap: wrap;
+		gap: 8px;
+		padding: 8px;
+	}
+
+	nav > div {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		gap: 8px;
 	}
 
 	.button {
@@ -46,17 +56,43 @@
 		text-decoration: none;
 		background-color: #EEEEEE;
 		color: #333333;
-		padding: 5px 9px 5px 9px;
+		padding: 5px 9px;
 		border-radius: 5px;
+		white-space: nowrap;
 	}
 
-	.twitch{
+	.twitch {
 		background-color: #9146FF;
-		box-shadow: 0px 2px  #7438CC;
+		box-shadow: 0px 2px #7438CC;
 		color: #FFFFFF;
 	}
-	.twitch:hover{
+
+	.twitch:hover {
 		transform: translateY(-3px);
-		box-shadow: 0px 5px  #7438CC;
+		box-shadow: 0px 5px #7438CC;
+	}
+
+	/* Mobile */
+	@media (max-width: 600px) {
+		nav {
+			flex-direction: column;
+			align-items: stretch;
+		}
+
+		nav > div {
+			justify-content: center;
+		}
+
+		.button {
+			font-size: 15px;
+			padding: 10px 14px; /* zone tactile plus grande */
+			flex: 1 1 auto;
+			text-align: center;
+		}
+
+		.twitch:hover {
+			transform: none; /* pas d'effet hover sur tactile */
+			box-shadow: 0px 2px #7438CC;
+		}
 	}
 </style>

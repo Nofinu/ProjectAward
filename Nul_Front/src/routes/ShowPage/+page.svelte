@@ -32,13 +32,44 @@
 
 <style>
     .grid {
-        width: auto;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+        gap: 16px;
+        padding: 8px;
     }
+
     .game {
-        width: 300px;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 12px;
+        border: 1px solid #DDDDDD;
+        border-radius: 8px;
     }
+
+    .game button {
+        font: bold 16px Arial;
+        padding: 8px 14px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
     .erreur { color: crimson; }
     .succes { color: seagreen; }
+
+    /* Mobile */
+    @media (max-width: 600px) {
+        h1 {
+            font-size: 1.5rem;
+            padding: 0 8px;
+        }
+
+        .grid {
+            grid-template-columns: 1fr; /* une seule colonne */
+        }
+
+        .game button {
+            width: 100%;
+            padding: 12px; /* zone tactile plus grande */
+        }
+    }
 </style>
