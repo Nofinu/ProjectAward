@@ -1,4 +1,3 @@
-import { env } from '$env/dynamic/public';
 import { fail, redirect } from '@sveltejs/kit';
 import type { Actions } from './$types';
 
@@ -15,7 +14,7 @@ export const actions: Actions = {
       return fail(400, { erreur: 'Données invalides' });
     }
 
-    const base = env.INTERNAL_API_URL ?? 'http://backend:8080';
+    const base = 'http://backend:8080';
     if (!base) throw new Error('INTERNAL_API_URL manquante');
 
     const res = await fetch(`${base}/api/vote`, {
@@ -31,6 +30,6 @@ export const actions: Actions = {
       return fail(res.status, { erreur: 'Le vote a échoué', game });
     }
 
-    return { succes: true, game };
+    return { succes: true, game: "game" };
   }
 };

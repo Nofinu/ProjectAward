@@ -1,5 +1,11 @@
 # Janvier 2026 :
 
+## Mistward
+- Date de sortie : 2 janv. 2026
+- Description : Mistward est un jeu de construction de ville de survie se déroulant sur une île mystérieuse enveloppée dans une brume empoisonnée ! Créez des sources de lumière pour éloigner la brume, construisez des maisons et commandez aux humains de rassembler des ressources. Explorez l'île et trouvez une issue !
+- Genre :  **City builder**
+- Page Steam : [Mistward](https://store.steampowered.com/app/2618090/Mistward)
+
 ## Gamblers Table
 - Date de sortie : 11 janv. 2026
 - Description : Gamblers Table est un jeu d’automatisation incrémental. Lancez des pièces pour gagner de l’argent, améliorez vos pièces et engagez des assistants pour automatiser le tout. Simple. Satisfaisant. Étrangement captivant...
