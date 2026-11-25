@@ -33,7 +33,7 @@ export const Games = [
     id:4,
     name: 'Kill The Shadow',
     releaseDate: '5 août 2026',
-    description: "Kill the Shadow is a detective game with multiple endings, featuring 2.5D pixel art and semi-open exploration and investigation. Play as Lucas, a former police officer, alongside a mysterious Shadow who can see the “past.” Remember—every choice you make will change the fate of countless characters!",
+    description: "Kill the Shadow est un jeu d’enquête à fins multiples, mêlant pixel art en 2.5D et exploration semi-ouverte. Incarnez Lucas, un ancien policier, accompagné d’une mystérieuse Ombre capable de voir le « passé ». N’oubliez pas : chacun de vos choix influencera le destin de nombreux personnages !",
     tags: ["Aventure", "Rpg"],
     image:"https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2660230/f8332f81e410007edc92983899edb850b847d540/ss_f8332f81e410007edc92983899edb850b847d540.1920x1080.jpg?t=1790874953",
     steamPage: "https://store.steampowered.com/app/2660230/Kill_The_Shadow"
@@ -93,7 +93,7 @@ export const Games = [
     id:10,
     name: 'Hearth and Hamlet',
     releaseDate: '19 août 2026',
-    description: "Start with a campfire. Build a kingdom. Hearth and Hamlet is a medieval citybuilder clicker that blends resource management, in-depth upgrade trees and relaxing idle gameplay. Build your empire by researching new technologies, passing new laws, trading with far-off lands, and more.",
+    description: "Commencez avec un simple feu de camp. Bâtissez un royaume. Hearth and Hamlet est un jeu de construction de ville médiévale mêlant clicker, gestion de ressources, arbres d’améliorations approfondis et gameplay idle relaxant. Développez votre empire en recherchant de nouvelles technologies, en adoptant de nouvelles lois, en commerçant avec des contrées lointaines et bien plus encore !",
     tags: ["Incrémental", "city Builder"],
     image:"https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4315040/9deb163ff5b397ed63af098a85ec560fa7846db0/ss_9deb163ff5b397ed63af098a85ec560fa7846db0.1920x1080.jpg?t=1794583633",
     steamPage: "https://store.steampowered.com/app/4315040/Hearth_and_Hamlet"
@@ -113,7 +113,7 @@ export const Games = [
     id:12,
     name: 'CICADAMATA"',
     releaseDate: '21 août 2026',
-    description: "+ follow the white rabbit + hop, skip, and jump to become one with joyeuse, until you are no longer you +",
+    description: "+ suivez le lapin blanc + bondissez, sautez et gambadez jusqu’à ne faire plus qu’un avec Joyeuse, jusqu’à ne plus être vous-même +",
     tags: ["Action", "Platformer 3D"],
     image:"https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3817250/0ad795c02d572b5718d2d4739bc4ce85c7ff9cef/ss_0ad795c02d572b5718d2d4739bc4ce85c7ff9cef.1920x1080.jpg?t=1792077405",
     steamPage: "https://store.steampowered.com/app/3817250/CICADAMATA"

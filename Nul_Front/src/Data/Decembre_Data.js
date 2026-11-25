@@ -43,7 +43,7 @@ export const Games = [
         id: 5,
         name: 'Unboxathon',
         releaseDate: '8 déc. 2025',
-        description: "Unboxathon is a cute content-packed incremental game about opening mystery boxes. Find rare items, upgrade your skills, and unlock new boxes & features! Collect shiny items, pop bubble wrap, and materialize artifacts out of thin air. Can you find your lost childhood plush?",
+        description: "Unboxathon est un petit jeu incrémental mignon et bourré de contenu, dans lequel vous ouvrez des boîtes mystères. Trouvez des objets rares, améliorez vos compétences et débloquez de nouvelles boîtes et fonctionnalités ! Collectionnez des objets brillants, faites éclater du papier bulle et faites apparaître des artefacts comme par magie. Parviendrez-vous à retrouver votre peluche d’enfance perdue ?",
         tags: ["Incrémental"],
         image:"https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3565100/9fd1c2d2f375b35fdba8fa35a097367284f90adf/ss_9fd1c2d2f375b35fdba8fa35a097367284f90adf.1920x1080.jpg?t=1770331397",
         steamPage: "https://store.steampowered.com/app/3565100/Unboxathon"
@@ -73,7 +73,7 @@ export const Games = [
         id: 8,
         name: 'FlippUp',
         releaseDate: '30 déc. 2025',
-        description: "You've activated an old Pinball machine- but with a twist. No points to score, just a mysterious mission to reach the top. We recommend you to try the demo before buying to avoid quick refunds- FlippTechINC.",
+        description: "Vous venez d’activer un vieux flipper… mais avec une particularité. Aucun point à marquer, juste une mystérieuse mission : atteindre le sommet.",
         tags: ["Plateforme et précision"],
         image:"https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3854060/83e6f6cf039465f98a6670c68da0ae1da02d14ab/ss_83e6f6cf039465f98a6670c68da0ae1da02d14ab.1920x1080.jpg?t=1768784895",
         steamPage: "https://store.steampowered.com/app/3854060/FlippUp"

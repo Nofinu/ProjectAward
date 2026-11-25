@@ -1,0 +1,64 @@
+ .countdown {
+    --ink: #02A274;
+    --muted: #be310a;
+
+    max-width: 44rem;
+    margin: 0 auto;
+    padding: 3rem 1.5rem;
+    color: var(--ink);
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: clamp(1.6rem, 5vw, 2.4rem);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+
+  .digits {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.75rem;
+    margin-bottom: 3rem;
+  }
+
+  .cell {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding: 1.25rem 0.25rem;
+    border-bottom: 3px solid var(--accent);
+  }
+
+  .num {
+    font-size: clamp(2.2rem, 10vw, 4.5rem);
+    font-weight: 800;
+    line-height: 1;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .unit {
+    color: var(--muted);
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  .message {
+    margin: 2rem 0 3rem;
+    font-size: 1.25rem;
+  }
+
+  .done {
+    color: var(--accent);
+    font-weight: 700;
+  }
+
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+

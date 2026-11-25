@@ -3,7 +3,7 @@ export const Games = [
     id:1,
     name: 'Master Healer Kale with useless party',
     releaseDate: '3 juillet 2026',
-    description: "A short incremental game where you play as a Healer in a party. Your main job is to keep your party alive. Upgrade 200+ skills in a skill tree, from healing to party damage. Designed to be completed in around 4 hours.",
+    description: "Un petit jeu incrémental dans lequel vous incarnez un soigneur au sein d’un groupe. Votre mission principale est de maintenir votre équipe en vie. Améliorez plus de 200 compétences dans un arbre de talents, allant des soins aux dégâts infligés par votre groupe. Le jeu est conçu pour être terminé en environ 4 heures.",
     tags: ["Incrémental", "Rpg"],
     image:"https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4634490/65e640eb83efba72f1e31908931f285f35a0edb4/ss_65e640eb83efba72f1e31908931f285f35a0edb4.1920x1080.jpg?t=1784261458",
     steamPage: "https://store.steampowered.com/app/4634490/Master_Healer_Kale_with_useless_party"
@@ -33,7 +33,7 @@ export const Games = [
     id:4,
     name: 'Desktop Explorer',
     releaseDate: '17 juillet 2026',
-    description: "Rummage through the abandoned profiles of an old PC to unravel an inherited mystery. What secrets hide in this eerie adventure of cryptic games and outdated software? Who was using this computer? And what happened to them?",
+    description: "Fouillez les profils abandonnés d’un vieil ordinateur pour percer le mystère qui vous a été laissé en héritage. Quels secrets se cachent dans cette étrange aventure mêlant jeux cryptiques et logiciels obsolètes ? Qui utilisait cet ordinateur ? Et qu’est-ce qui lui est arrivé ?",
     tags: ["Point&Click", "Horreur Spychologique"],
     image:"https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2527160/018a961207c31b7ca56bd38410c80842ccbefcd5/ss_018a961207c31b7ca56bd38410c80842ccbefcd5.1920x1080.jpg?t=1788020386",
     steamPage: "https://store.steampowered.com/app/2527160/Desktop_Explorer"
@@ -43,7 +43,7 @@ export const Games = [
     id:5,
     name: 'Database Detective: Minor Crimes Division',
     releaseDate: '17 juillet 2026',
-    description: "Solve criminal cases through the power of SQL queries! Help out the city of Los Zorangeles by becoming a Database Detective in this new (unpaid) work from home opportunity.",
+    description: "Résolvez des affaires criminelles grâce à la puissance des requêtes SQL ! Aidez la ville de Los Zorangeles en devenant détective de base de données dans cette nouvelle opportunité de travail à domicile (non rémunérée).",
     tags: ["Programation", "Casse-tête"],
     image:"https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/3950130/514c624fa339e77ec626f44e9b4422e79ae6a063/ss_514c624fa339e77ec626f44e9b4422e79ae6a063.1920x1080.jpg?t=1794186627",
     steamPage: "https://store.steampowered.com/app/3950130/Database_Detective_Minor_Crimes_Division"
@@ -73,7 +73,7 @@ export const Games = [
     id:8,
     name: 'Sephiria',
     releaseDate: '31 juillet 2026',
-    description: "Save Bunnyville from a doomed fate: a top-down action/RPG roguelite from the makers of Dungreed. Explore the depths of the tower, collect and upgrade artifacts, and defeat hordes of demons to keep your village safe.",
+    description: "Sauvez Bunnyville d’un destin funeste dans ce roguelite d’action/RPG en vue du dessus, créé par les développeurs de Dungreed. Explorez les profondeurs de la tour, récupérez et améliorez des artefacts, et affrontez des hordes de démons pour protéger votre village.",
     tags: ["Action", "RogueLike"],
     image:"https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2436940/ss_ff782818e49493b5fd0a99a83987d9d415d3af71.1920x1080.jpg?t=1795155791",
     steamPage: "https://store.steampowered.com/app/2436940/Sephiria"

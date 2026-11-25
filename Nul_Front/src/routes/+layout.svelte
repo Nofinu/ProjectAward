@@ -65,13 +65,14 @@
 <style>
 	:global(html) {
 		min-height: 100%;
+		font-family: "Montserrat";
 	}
 
 	:global(body) {
 		margin: 0;
 		min-height: 100vh;
-		background: #0A0F11;
-		background: linear-gradient(153deg, rgba(10, 15, 17, 1) 0%, rgba(15, 35, 46, 1) 68%, rgba(2, 128, 163, 1) 100%);
+		background: #011912;
+		background: linear-gradient(162deg,rgba(1, 25, 18, 1) 22%, rgba(1, 70, 51, 1) 71%, rgba(2, 115, 83, 1) 100%);
 		background-attachment: fixed;
 		color: white;
 		font-family: system-ui, sans-serif;

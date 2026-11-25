@@ -68,7 +68,7 @@
             <form method="POST" action="?/vote" use:enhance>
                 <input type="hidden" name="game" value={game.id} />
                 <input type="hidden" name="month" value={month} />
-                <button>Voter</button>
+                <button class="voteButton">Voter</button>
             </form>
         </div>
     {/each}
