@@ -51,7 +51,7 @@
 
 		<div class="auth">
 			{#if data.username}
-				<a href="https://nulawards.duckdns.org/LogOut" class="button" data-sveltekit-reload>logout</a>
+				<a href="/LogOut" class="button" data-sveltekit-reload>logout</a>
 				<a href="https://nulawards.duckdns.org/" class="button" data-sveltekit-reload>{data.username}</a>
 			{:else}
 				<a href="https://id.twitch.tv/oauth2/authorize?response_type=code&client_id=pre477msnx5x2s4j08lwznegnnnipr&redirect_uri=https://nulawards.duckdns.org/Authorization&scope=user%3Aread%3Aemail&state=c3ab8aa609ea11e793ae92361f002671" class="button twitch">Connexion via Twitch</a>

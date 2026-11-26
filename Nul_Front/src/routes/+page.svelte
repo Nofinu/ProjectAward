@@ -2,7 +2,8 @@
   import "../Css/CountDown.css";
   // Svelte 5 (runes). Compte à rebours vers une date choisie.
   // Le calcul est refait à chaque chargement de la page.
-  let target = $state("2026-12-05T12:00");
+  let target = $state("2026-12-08T12:00");
+  //let target = $state("2026-12-12T12:00");
   let label = $state("Fin Des votes");
   let now = $state(Date.now());
 
@@ -17,6 +18,9 @@
   let diff = $derived(valid ? targetMs - now : 0);
 
   let parts = $derived.by(() => {
+    if(diff<=0){
+      diff=0
+    }
     const total = Math.max(0, Math.floor(diff / 1000));
     return [
       { value: Math.floor(total / 86400), unit: "jour" },
